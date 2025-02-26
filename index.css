@@ -67,7 +67,7 @@ body {
 .fourthbox {
   background-color: rgb(255, 255, 255);
   width: 20%;
-  margin: -27% 64%;
+  margin: -27% 63.7%;
   height: 150px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -94,4 +94,28 @@ body {
 .imgfour {
   width: 17%;
   padding-left: 200px;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px auto;
+  }
+  .firstbox {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .secondbox {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .thirdbox {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .fourthbox {
+    width: 80%;
+    margin: 15px auto;
+  }
 }
